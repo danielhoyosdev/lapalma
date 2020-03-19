@@ -33,6 +33,7 @@
 
 .subtitle {
     font-size: 1em;
+    color: var(--primary-color);
 }
 
 section, .section {
@@ -43,6 +44,16 @@ p {
     margin-bottom: 1em;
     text-align: justify;
 }
+
+.rs a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.rs a:not(:last-child) {
+    margin-right: 1em;
+}
+
 
 .header {
     position: relative;
@@ -89,6 +100,8 @@ p {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #ebebeb;
+    z-index: 999;
+    top: 0;
 }
 
 .menu__logo {
@@ -124,22 +137,21 @@ p {
     padding: 0;
 }
 .menu__items li {
-    padding: 16px;
     text-align: center;
+    color: var(--white-color);
+    padding: .5em;
+}
+
+.menu__items li:not(.rs) a{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-decoration: none;
     color: var(--white-color);
 }
 
 .menu__items li:not(:last-child) {
     border-bottom: 1px solid rgba(9,85,170,0.52);
-}
-
-.menu__items li.rs a{
-    color: var(--white-color);
-    margin: 0 1em;
-}
-
-.menu__items li.rs a i {
-    font-size: 25px;
 }
 
 .menu__button{
@@ -263,4 +275,89 @@ p {
 
 .diploma__item-text ul li span {
     font-weight: 600;
+}
+
+.clientes {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    background-color: var(--primary-color);
+    padding: 1em;
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.clientes__title {
+    position: absolute;
+    width: 3em;
+    height: 200px;
+    bottom: 0;
+    left: 1em;
+    background-color: var(--secondary-color);
+    box-shadow: 2px -1px 5px rgba(16,25,50,0.8);
+    padding: 1em;
+}
+
+.clientes__title-text {
+    width: .7em;
+    word-wrap: break-word;
+    font-size: 1.25em;
+    line-height: 1em;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.clientes__container {
+    width: calc(100% - 4em);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: .5em;
+    overflow: hidden;
+}
+
+.clientes__item {
+    width: 100%;
+}
+
+.clientes__item-img {
+    width: 100%;
+}
+
+.contacto {
+    background: var(--white-color) url(../img/background-contacto.jpg);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.contacto__map{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+}
+
+.footer {
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.footer__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__container-img {
+    width: 120px;
+    margin-bottom: 1em;
+}
+
+.footer__container .copyright {
+    text-align: center;
+    margin-top: 1em;
 }

@@ -30,7 +30,7 @@ const Servicios = () => {
     ];
 
     return(
-        <div className="servicios section">
+        <div className="servicios section" id="servicios">
             <h5 className="title">NUESTROS SERVICIOS</h5>
 
             <div className="servicios__container">

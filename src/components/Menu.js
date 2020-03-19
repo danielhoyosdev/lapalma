@@ -14,10 +14,10 @@ const Menu = () => {
 
             <menu className="menu__items">
                 <ul>
-                    <li>INICIO</li>
-                    <li>NOSOTROS</li>
-                    <li>SERVICIOS</li>
-                    <li>CONTACTO</li>
+                    <li><a href="#">INICIO</a></li>
+                    <li><a href="#nosotros">NOSOTROS</a></li>
+                    <li><a href="#servicios">SERVICIOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
                     <li className="rs">
                         <a href="tel:3154004265" className="rs__item-whatsap">
                             <i className="fas fa-phone-volume"></i>
