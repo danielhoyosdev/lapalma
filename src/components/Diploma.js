@@ -12,7 +12,7 @@ const Diploma = (props) => (
                     {
                         React.Children.toArray(props.caracteristicas1.map((item) => (
                             <li>
-                                <i class="fas fa-angle-right"></i> 
+                                <i className="fas fa-angle-right"></i> 
                                 { item }
                             </li>
                         )))
@@ -23,7 +23,7 @@ const Diploma = (props) => (
                     {
                         React.Children.toArray(props.caracteristicas2.map((item) => (
                             <li>
-                                <i class="fas fa-angle-right"></i> 
+                                <i className="fas fa-angle-right"></i> 
                                 { item }
                             </li>
                         )))
@@ -36,7 +36,7 @@ const Diploma = (props) => (
                         {
                             React.Children.toArray(props.caracteristicas3.map((item) => (
                                 <li>
-                                    <i class="fas fa-angle-right"></i> 
+                                    <i className="fas fa-angle-right"></i> 
                                     { item }
                                 </li>
                             )))

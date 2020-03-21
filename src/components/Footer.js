@@ -4,8 +4,8 @@ import React from 'react'
 import LogoWhite from '../assets/img/logo-white.png';
 
 const Footer = () => (
-    <footer class="footer section">
-        <div class="footer__container">
+    <footer className="footer section">
+        <div className="footer__container">
             <img src={LogoWhite} atl="Tipografía la palma" className="footer__container-img"/>
 
             <div className="rs">

@@ -3,12 +3,8 @@ import React from 'react'
 // Components 
 import Menu from './Menu'
 
-
-import backgroundSlide from '../assets/img/background.png'
-import backgroundSlideMovil from '../assets/img/background-movil.png'
-
 const Header = () => (
-    <header className="header">
+    <header className="header" id="header">
         <div className="header__slide">
             <div className="mouse">
             </div>
