@@ -37,13 +37,13 @@ const Diplomas = () => {
         <section>
             <h5 className="title">DIPLOMAS</h5>
             
-            <article className="diplomas__container">
+            <article className="diplomas__container container">
                 {
                     React.Children.toArray(diplomas.map((diploma) => (
                         <Diploma {...diploma}/>
                     )))
                 }
-                <div className="diploma__item">
+                <div className="diploma__item other">
                     <img src={diploma4} className="diploma__item-img" alt="Diplomas Tipografía la palma" />
 
                     <div className="diploma__item-text">

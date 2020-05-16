@@ -4,9 +4,15 @@ import React from 'react'
 import LogoWhite from '../assets/img/logo-white.png';
 
 const Footer = () => (
-    <footer className="footer section">
-        <div className="footer__container">
-            <img src={LogoWhite} atl="Tipografía la palma" className="footer__container-img"/>
+    <footer className="footer">
+        <div className="footer__container container">
+            <div className="bussines">
+                <img src={LogoWhite} atl="Tipografía la palma" className="footer__container-img"/>
+
+                <div className="copyright">
+                    COPYRIGHT &copy; 2020 TIPOGRAFÍA LA PALMA
+                </div>
+            </div>
 
             <div className="rs">
                 <a href="tel:3154004265" className="rs__item-whatsap">
@@ -18,10 +24,6 @@ const Footer = () => (
                 <a href="mailto:alejoastudillo2@gmail.com">
                     <i className="far fa-envelope"></i> Email
                 </a>
-            </div>
-
-            <div className="copyright">
-                COPYRIGHT &copy; 2020 TIPOGRAFÍA LA PALMA
             </div>
         </div>
     </footer>

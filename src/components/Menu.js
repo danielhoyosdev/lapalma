@@ -40,49 +40,51 @@ class Menu extends React.Component {
     render() {
         return(
             <div className={this.state.openMenu ? "menu is-open" :  "menu" } ref={this.menuRef} style={this.state.stylesMenu}>
-                <div className="menu__logo" >
-                    <img src={logo} alt="Tipografía la Palma" />
+                <div className="container">
+                    <div className="menu__logo" >
+                        <img src={logo} alt="Tipografía la Palma" />
+                    </div>
+
+                    <menu className="menu__items">
+                        <ul>
+                            <li>
+                                <Link activeClass="active" to="header" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleClickLink}>
+                                    INICIO
+                                </Link>
+                            </li>
+                            <li>
+                                <Link activeClass="active" to="nosotros" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleClickLink}>
+                                    NOSOTROS
+                                </Link>
+                            </li>
+                            <li>
+                                <Link activeClass="active" to="servicios" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleClickLink}>
+                                    SERVICIOS
+                                </Link>
+                            </li>
+                            <li>
+                                <Link activeClass="active" to="contacto" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleClickLink}>
+                                    CONTACTO
+                                </Link>
+                            </li>
+                            <li className="rs">
+                                <a href="tel:3154004265" className="rs__item-whatsap">
+                                    <i className="fas fa-phone-volume"></i>
+                                </a>
+                                <a href="https://api.whatsapp.com/send?phone=573125298438" target="_blank" rel="noopener noreferrer">
+                                    <i className="fab fa-whatsapp"></i>
+                                </a>
+                                <a href="mailto:alejoastudillo2@gmail.com">
+                                    <i className="far fa-envelope"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </menu>
+
+                    <a className="menu__button" href="#0" onClick={ () => this.setState({ openMenu: !this.state.openMenu })} >
+                        <span className="menu__button-icon"></span>
+                    </a>
                 </div>
-    
-                <menu className="menu__items">
-                    <ul>
-                        <li>
-                            <Link activeClass="active" to="header" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleClickLink}>
-                                INICIO
-                            </Link>
-                        </li>
-                        <li>
-                            <Link activeClass="active" to="nosotros" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleClickLink}>
-                                NOSOTROS
-                            </Link>
-                        </li>
-                        <li>
-                            <Link activeClass="active" to="servicios" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleClickLink}>
-                                SERVICIOS
-                            </Link>
-                        </li>
-                        <li>
-                            <Link activeClass="active" to="contacto" spy={true} smooth={true} offset={-100} duration={500} onClick={this.handleClickLink}>
-                                CONTACTO
-                            </Link>
-                        </li>
-                        <li className="rs">
-                            <a href="tel:3154004265" className="rs__item-whatsap">
-                                <i className="fas fa-phone-volume"></i>
-                            </a>
-                            <a href="https://api.whatsapp.com/send?phone=573125298438" target="_blank" rel="noopener noreferrer">
-                                <i className="fab fa-whatsapp"></i>
-                            </a>
-                            <a href="mailto:alejoastudillo2@gmail.com">
-                                <i className="far fa-envelope"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </menu>
-    
-                <a className="menu__button" href="#0" onClick={ () => this.setState({ openMenu: !this.state.openMenu })} >
-                    <span className="menu__button-icon"></span>
-                </a>
             </div>
         )
     }

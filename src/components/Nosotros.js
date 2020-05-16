@@ -4,7 +4,7 @@ import React from 'react'
 import backgroundNosotros from '../assets/img/nosotros.jpg'
 
 const Nosotros = () => (
-    <div className="nosotros section" id="nosotros">
+    <div className="nosotros container" id="nosotros">
         <h5 className="title">NOSOTROS</h5>
 
         <div className="nosotros__container">

@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Contacto = () => (
-    <div className="contacto section" id="contacto">
+    <div className="contacto" id="contacto">
         <h5 className="title">CONTACTO</h5>
 
-        <div className="contacto__container">
+        <div className="contacto__container container">
             <div className="contacto__data">
                 <div className="contacto__data-item">
                     <h6 className="subtitle">DÓNDE ENCONTRARNOS</h6>

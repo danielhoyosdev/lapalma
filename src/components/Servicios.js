@@ -30,10 +30,10 @@ const Servicios = () => {
     ];
 
     return(
-        <div className="servicios section" id="servicios">
+        <div className="servicios" id="servicios">
             <h5 className="title">NUESTROS SERVICIOS</h5>
 
-            <div className="servicios__container">
+            <div className="servicios__container container">
                 {
                     React.Children.toArray(servicios.map((servicio) => (
                         <Servicio title={servicio.title} img={servicio.img} />
