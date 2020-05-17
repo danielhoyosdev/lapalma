@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/lapalma/static/css/main.fdce71ca.chunk.css",
-    "main.js": "/lapalma/static/js/main.a1df1e8f.chunk.js",
-    "main.js.map": "/lapalma/static/js/main.a1df1e8f.chunk.js.map",
+    "main.js": "/lapalma/static/js/main.8847b8d1.chunk.js",
+    "main.js.map": "/lapalma/static/js/main.8847b8d1.chunk.js.map",
     "runtime-main.js": "/lapalma/static/js/runtime-main.bb396262.js",
     "runtime-main.js.map": "/lapalma/static/js/runtime-main.bb396262.js.map",
     "static/js/2.bc3db5e5.chunk.js": "/lapalma/static/js/2.bc3db5e5.chunk.js",
     "static/js/2.bc3db5e5.chunk.js.map": "/lapalma/static/js/2.bc3db5e5.chunk.js.map",
     "index.html": "/lapalma/index.html",
-    "precache-manifest.89da9131cae338f06e5f18d222d98fa0.js": "/lapalma/precache-manifest.89da9131cae338f06e5f18d222d98fa0.js",
+    "precache-manifest.d71defda9f2d015278e737e9afba3e11.js": "/lapalma/precache-manifest.d71defda9f2d015278e737e9afba3e11.js",
     "service-worker.js": "/lapalma/service-worker.js",
     "static/css/main.fdce71ca.chunk.css.map": "/lapalma/static/css/main.fdce71ca.chunk.css.map",
     "static/js/2.bc3db5e5.chunk.js.LICENSE.txt": "/lapalma/static/js/2.bc3db5e5.chunk.js.LICENSE.txt",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.bb396262.js",
     "static/js/2.bc3db5e5.chunk.js",
     "static/css/main.fdce71ca.chunk.css",
-    "static/js/main.a1df1e8f.chunk.js"
+    "static/js/main.8847b8d1.chunk.js"
   ]
 }
