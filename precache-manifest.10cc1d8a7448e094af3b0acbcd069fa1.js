@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bac1d413573e6dbb64da51e63ab6509a",
+    "revision": "c8c60e73660c45f8350f1b7dda726f10",
     "url": "/lapalma/index.html"
   },
   {
-    "revision": "3d5b6c239e7802d36502",
+    "revision": "13150e4dfab1bc58fd67",
     "url": "/lapalma/static/css/main.fdce71ca.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lapalma/static/js/2.bc3db5e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d5b6c239e7802d36502",
-    "url": "/lapalma/static/js/main.8847b8d1.chunk.js"
+    "revision": "13150e4dfab1bc58fd67",
+    "url": "/lapalma/static/js/main.65f8dab2.chunk.js"
   },
   {
     "revision": "658923949390f91872ff",
