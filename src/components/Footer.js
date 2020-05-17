@@ -18,7 +18,7 @@ const Footer = () => (
                 <a href="tel:3154004265" className="rs__item-whatsap">
                     <i className="fas fa-phone-volume"></i> Llámanos
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=573125298438" target="_blank" rel="noopener noreferrer">
+                <a href="https://api.whatsapp.com/send?phone=573154004265" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-whatsapp"></i> Whatsapp
                 </a>
                 <a href="mailto:alejoastudillo2@gmail.com">
