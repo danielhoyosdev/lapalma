@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/lapalma/static/css/main.fdce71ca.chunk.css",
+    "main.js": "/lapalma/static/js/main.a1df1e8f.chunk.js",
+    "main.js.map": "/lapalma/static/js/main.a1df1e8f.chunk.js.map",
+    "runtime-main.js": "/lapalma/static/js/runtime-main.bb396262.js",
+    "runtime-main.js.map": "/lapalma/static/js/runtime-main.bb396262.js.map",
+    "static/js/2.bc3db5e5.chunk.js": "/lapalma/static/js/2.bc3db5e5.chunk.js",
+    "static/js/2.bc3db5e5.chunk.js.map": "/lapalma/static/js/2.bc3db5e5.chunk.js.map",
+    "index.html": "/lapalma/index.html",
+    "precache-manifest.89da9131cae338f06e5f18d222d98fa0.js": "/lapalma/precache-manifest.89da9131cae338f06e5f18d222d98fa0.js",
+    "service-worker.js": "/lapalma/service-worker.js",
+    "static/css/main.fdce71ca.chunk.css.map": "/lapalma/static/css/main.fdce71ca.chunk.css.map",
+    "static/js/2.bc3db5e5.chunk.js.LICENSE.txt": "/lapalma/static/js/2.bc3db5e5.chunk.js.LICENSE.txt",
+    "static/media/Servicio1.jpg": "/lapalma/static/media/Servicio1.db61e6e3.jpg",
+    "static/media/Servicio2.jpg": "/lapalma/static/media/Servicio2.6351a2bd.jpg",
+    "static/media/Servicio3.jpg": "/lapalma/static/media/Servicio3.4fcab89a.jpg",
+    "static/media/Servicio4.jpg": "/lapalma/static/media/Servicio4.c3788b97.jpg",
+    "static/media/styles.css": "/lapalma/static/media/background.4e833f76.png",
+    "static/media/cliente1.png": "/lapalma/static/media/cliente1.4ad43290.png",
+    "static/media/cliente2.png": "/lapalma/static/media/cliente2.c8931329.png",
+    "static/media/cliente3.png": "/lapalma/static/media/cliente3.e1d879f8.png",
+    "static/media/cliente4.png": "/lapalma/static/media/cliente4.a7570a66.png",
+    "static/media/logo-white.png": "/lapalma/static/media/logo-white.d8d27616.png",
+    "static/media/logo.png": "/lapalma/static/media/logo.a198c24a.png",
+    "static/media/nosotros.jpg": "/lapalma/static/media/nosotros.dc9c3a80.jpg",
+    "static/media/opcion1.png": "/lapalma/static/media/opcion1.6590ae7e.png",
+    "static/media/opcion2.png": "/lapalma/static/media/opcion2.3de56566.png",
+    "static/media/opcion3.png": "/lapalma/static/media/opcion3.00adeff7.png",
+    "static/media/opcion4.png": "/lapalma/static/media/opcion4.aacd486d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb396262.js",
+    "static/js/2.bc3db5e5.chunk.js",
+    "static/css/main.fdce71ca.chunk.css",
+    "static/js/main.a1df1e8f.chunk.js"
+  ]
+}
