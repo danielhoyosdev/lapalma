@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8c60e73660c45f8350f1b7dda726f10",
+    "revision": "b5ec4bffb314f4576ab0b5dddc00035e",
     "url": "/lapalma/index.html"
   },
   {
-    "revision": "13150e4dfab1bc58fd67",
-    "url": "/lapalma/static/css/main.fdce71ca.chunk.css"
+    "revision": "49b771906f5d6826e8ca",
+    "url": "/lapalma/static/css/main.d2017059.chunk.css"
   },
   {
-    "revision": "fca6218bf3714552cb1e",
-    "url": "/lapalma/static/js/2.bc3db5e5.chunk.js"
+    "revision": "341b54eeba92bb4b6bd8",
+    "url": "/lapalma/static/js/2.40ea563f.chunk.js"
   },
   {
     "revision": "45c3b0e6a77e536ad25f6ffa575bb86a",
-    "url": "/lapalma/static/js/2.bc3db5e5.chunk.js.LICENSE.txt"
+    "url": "/lapalma/static/js/2.40ea563f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "13150e4dfab1bc58fd67",
-    "url": "/lapalma/static/js/main.65f8dab2.chunk.js"
+    "revision": "49b771906f5d6826e8ca",
+    "url": "/lapalma/static/js/main.a7b3d0db.chunk.js"
   },
   {
     "revision": "658923949390f91872ff",
@@ -40,16 +40,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lapalma/static/media/Servicio4.c3788b97.jpg"
   },
   {
+    "revision": "f2e242a0377b73a5b364a17571bb18b0",
+    "url": "/lapalma/static/media/Servicio5.f2e242a0.jpg"
+  },
+  {
     "revision": "11d11b4a9d794f5bf1b2755d90f3c983",
     "url": "/lapalma/static/media/background-contacto.11d11b4a.jpg"
   },
   {
-    "revision": "cbfd56b543d0e274e2d7570d520eb3b8",
-    "url": "/lapalma/static/media/background-movil.cbfd56b5.png"
+    "revision": "c09020be9b8eb8f695b29f01bda026c4",
+    "url": "/lapalma/static/media/background-movil.c09020be.png"
   },
   {
-    "revision": "4e833f7642f00c0b2e1cbe656240d7e8",
-    "url": "/lapalma/static/media/background.4e833f76.png"
+    "revision": "66c901db5ce2cff6c45cdbca42ad4605",
+    "url": "/lapalma/static/media/background.66c901db.png"
   },
   {
     "revision": "4ad43290d25df00ae35d18207418b113",
@@ -68,12 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lapalma/static/media/cliente4.a7570a66.png"
   },
   {
-    "revision": "d8d276167585cb3abc220948ac0aa64b",
-    "url": "/lapalma/static/media/logo-white.d8d27616.png"
+    "revision": "88578cb2ef70bb1f54e344ee71555670",
+    "url": "/lapalma/static/media/logo-white.88578cb2.png"
   },
   {
-    "revision": "a198c24ab40fd14046460fd28140785d",
-    "url": "/lapalma/static/media/logo.a198c24a.png"
+    "revision": "0d940843c9fb405172fdb14d589fb535",
+    "url": "/lapalma/static/media/logo.0d940843.png"
   },
   {
     "revision": "dc9c3a8004985c81d08073ba1bb029c3",
