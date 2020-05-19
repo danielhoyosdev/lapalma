@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 // Assets
 import logo from '../assets/img/logo.png'
@@ -42,7 +42,7 @@ class Menu extends React.Component {
             <div className={this.state.openMenu ? "menu is-open" :  "menu" } ref={this.menuRef} style={this.state.stylesMenu}>
                 <div className="container">
                     <div className="menu__logo" >
-                        <img src={logo} alt="Tipografía la Palma" />
+                        <img src={logo} alt="Variedades y Tipografía la palma | Logo"/>
                     </div>
 
                     <menu className="menu__items">

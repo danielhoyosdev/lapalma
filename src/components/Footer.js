@@ -7,7 +7,7 @@ const Footer = () => (
     <footer className="footer">
         <div className="footer__container container">
             <div className="bussines">
-                <img src={LogoWhite} atl="Tipografía la palma" className="footer__container-img"/>
+                <img src={LogoWhite} alt="Variedades y Tipografía la palma | Logo" className="footer__container-img"/>
 
                 <div className="copyright">
                     COPYRIGHT &copy; 2020 TIPOGRAFÍA LA PALMA

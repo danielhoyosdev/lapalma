@@ -19,7 +19,7 @@ const Clientes = () => {
                     {
                         React.Children.toArray(clientes.map((cliente) => (
                             <div className="clientes__item">
-                                <img src={cliente} className="clientes__item-img" />
+                                <img src={cliente} className="clientes__item-img" alt="Clientes de Variedades y Tipografía la palma"/>
                             </div>
                         )))
                     }

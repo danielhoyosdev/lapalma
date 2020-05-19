@@ -1,3 +1,5 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
+User-Agent: *
+Disallow: 
+Allow: /www.tipografialapalma.com
+
+Sitemap: http://www.tipografialapalma.com/sitemap.xml

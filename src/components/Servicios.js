@@ -8,6 +8,7 @@ import servicio1 from '../assets/img/Servicio1.jpg'
 import servicio2 from '../assets/img/Servicio2.jpg'
 import servicio3 from '../assets/img/Servicio3.jpg'
 import servicio4 from '../assets/img/Servicio4.jpg'
+import servicio5 from '../assets/img/Servicio5.jpg'
 
 const Servicios = () => {
     const servicios = [
@@ -21,12 +22,16 @@ const Servicios = () => {
         },
         {
             img: servicio3, 
-            title: "Suministros para cocina"
+            title: "Suministros para oficina"
         }, 
         {
             img: servicio4, 
             title: "Muebles para oficina"
-        }
+        },
+        {
+            img: servicio5, 
+            title: "Productos de Aseo"
+        },
     ];
 
     return(
